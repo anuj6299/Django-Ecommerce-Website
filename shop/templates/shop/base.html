@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bonzo Kids</title>
+    {% load static %}
+    <link rel="shortcut icon" type="image/png" href="{%  static 'favicon.ico' %}"/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+     
+  <link rel="stylesheet" type="text/css" href="{% static 'shop/css/index.css' %}"/>
+  <link rel="stylesheet" type="text/css" href="{% static 'shop/css/base.css' %}"/>
+  <link rel="stylesheet" type="text/css" href="{% static 'shop/css/detail.css' %}"/>
+  <link rel="stylesheet" type="text/css" href="{% static 'shop/css/cart.css' %}"/>
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif:700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" rel="stylesheet">
+    
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="{% static 'shop/js/cart.js' %}"></script>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
+  <a class="navbar-brand" href="#">Bonzo Kids</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      
+<li class="nav-item dropdown megamenu"><a id="megamneu" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle font-weight-bold text-uppercase">Category</a>
+        <div aria-labelledby="megamneu" class="dropdown-menu border-0 p-0 m-0">
+          <div class="container">
+            <div class="row bg-white rounded-0 m-0 shadow-sm">
+              <div class="col-lg-7 col-xl-8">
+                <div class="p-4">
+                  <div class="row">
+                    <div class="col-lg-6 mb-4">
+                      <h6 class="font-weight-bold text-uppercase">MegaMenu heading</h6>
+                      <ul class="list-unstyled">
+                        <li class="nav-item"><a href="" class="nav-link text-small pb-0">Unique Features</a></li>
+                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Image Responsive</a></li>
+                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Auto Carousel</a></li>
+                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Newsletter Form</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                      <h6 class="font-weight-bold text-uppercase">MegaMenu heading</h6>
+                      <ul class="list-unstyled">
+                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Unique Features</a></li>
+                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Image Responsive</a></li>
+                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Auto Carousel</a></li>
+                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Newsletter Form</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                      <h6 class="font-weight-bold text-uppercase">MegaMenu heading</h6>
+                      <ul class="list-unstyled">
+                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Unique Features</a></li>
+                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Image Responsive</a></li>
+                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Auto Carousel</a></li>
+                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Newsletter Form</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                      <h6 class="font-weight-bold text-uppercase">MegaMenu heading</h6>
+                      <ul class="list-unstyled">
+                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Unique Features</a></li>
+                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Image Responsive</a></li>
+                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Auto Carousel</a></li>
+                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Newsletter Form</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-5 col-xl-4 px-0 d-none d-lg-block" style="background: center center url(https://previews.123rf.com/images/slena/slena1804/slena180400048/99634422-super-sale-now-on-crazy-discounts-poster-design-with-loudspeaker.jpg)no-repeat; background-size: cover;"></div>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase">About</a></li>
+     
+      <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase">Contact</a></li>
+
+    </ul>
+
+    <form class="navbar-form navbar-right" role="search" id="navBarSearchForm">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" style="width: 500px;" aria-label="Search">
+      </form>
+
+      <button type="button" class="btn btn-default btn-sm">
+        <i class="fa fa-user" aria-hidden="true"></i> User 
+      </button>
+
+      <button type="button" class="btn btn-default btn-sm">
+        <i class="fas fa-shopping-cart"></i> Cart
+      </button>
+
+  </div>
+</nav>
+
+{% block body %}
+{% endblock %}
+
+<footer class="text-light">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-3 col-lg-4 col-xl-3">
+              <h5>About</h5>
+              <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+              <p class="mb-0">
+                  Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.
+              </p>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto">
+              <h5>Informations</h5>
+              <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+              <ul class="list-unstyled">
+                  <li><a href="">Link 1</a></li>
+                  <li><a href="">Link 2</a></li>
+                  <li><a href="">Link 3</a></li>
+                  <li><a href="">Link 4</a></li>
+              </ul>
+          </div>
+
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto">
+              <h5>Others links</h5>
+              <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+              <ul class="list-unstyled">
+                  <li><a href="">Link 1</a></li>
+                  <li><a href="">Link 2</a></li>
+                  <li><a href="">Link 3</a></li>
+                  <li><a href="">Link 4</a></li>
+              </ul>
+          </div>
+
+          <div class="col-md-4 col-lg-3 col-xl-3">
+              <h5>Contact</h5>
+              <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+              <ul class="list-unstyled">
+                  <li><i class="fa fa-home mr-2"></i> My company</li>
+                  <li><i class="fa fa-envelope mr-2"></i> email@example.com</li>
+                  <li><i class="fa fa-phone mr-2"></i> + 33 12 14 15 16</li>
+                  <li><i class="fa fa-print mr-2"></i> + 33 12 14 15 16</li>
+              </ul>
+          </div>
+         <br>
+  </div>
+</footer>
+
+</body>
+</html>
+

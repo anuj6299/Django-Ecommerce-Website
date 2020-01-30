@@ -1,0 +1,32 @@
+body {
+  background-color: #e0e0d1;
+}
+
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+    font-size: 28px ;
+  }
+  
+  .megamenu {
+    position: static;
+  }
+  
+  .megamenu .dropdown-menu {
+    background: none;
+    border: none;
+    width: 100%;
+  }
+  
+  #navBarSearchForm input[type=text]{width:930px ;}
+  
+  .text-uppercase {
+    letter-spacing: 0.08em;
+  }
+
+  footer {
+    background: #343a40;
+    padding: 40px;
+}
+footer a {
+    color: #f8f9fa!important
+}

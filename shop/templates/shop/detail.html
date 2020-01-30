@@ -1,0 +1,149 @@
+{% extends 'shop/base.html' %}
+{% load static %}
+{% block body %}
+
+<div class="container-fluid">
+    <div class="dcard">
+        <div class="container-fliud">
+            <div class="wrapper row">
+                <div class="preview col-md-6">
+                    
+                    <div class="preview-pic tab-content">
+                      <div class="tab-pane active" id="pic-1"><img height="500px" src="{% static 'shop/images/d1.jpg' %}" /></div>
+                      <div class="tab-pane" id="pic-2"><img height="500px" src="{% static 'shop/images/d2.jpg' %}" /></div>
+                      <div class="tab-pane" id="pic-3"><img height="500px" src="{% static 'shop/images/d3.jpg' %}" /></div>
+                      <div class="tab-pane" id="pic-4"><img height="500px" src="{% static 'shop/images/d4.jpg' %}" /></div>
+                      <div class="tab-pane" id="pic-5"><img height="500px" src="{% static 'shop/images/d5.jpg' %}" /></div>
+                    </div>
+                    <ul class="preview-thumbnail nav nav-tabs">
+                      <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="{% static 'shop/images/d1.jpg' %}" /></a></li>
+                      <li><a data-target="#pic-2" data-toggle="tab"><img src="{% static 'shop/images/d2.jpg' %}" /></a></li>
+                      <li><a data-target="#pic-3" data-toggle="tab"><img src="{% static 'shop/images/d3.jpg' %}" /></a></li>
+                      <li><a data-target="#pic-4" data-toggle="tab"><img src="{% static 'shop/images/d4.jpg' %}" /></a></li>
+                      <li><a data-target="#pic-5" data-toggle="tab"><img src="{% static 'shop/images/d5.jpg' %}" /></a></li>
+                    </ul>
+                    
+                </div>
+                <div class="details col-md-6">
+                    <h2 class="product-title">men's fashion</h2>
+                    <div class="rating">
+                        <div class="stars">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <span class="review-no">41 reviews</span>
+                    </div>
+                    <h3>About the product</h3>
+                    <p class="product-description">
+                        <ul>
+                        <li>Receive all 3 Episodes of Vader Immortal: A Star Wars VR Series and Lightsaber Dojos when you purchase an Oculus Quest headset between 11/21/2019 and 01/31/2020 (limited time only). Oculus Quest must be activated within 30 days of purchase to redeem offer.</li>
+                        <li>All-in-one VR: Simply set up the device with your Oculus mobile app and Oculus Quest has everything you need to explore VR, right out of the box</li>
+                        <li>Insight tracking: Oculus Insight tracking system instantly reflects your movements in VR without the need for any external accessories</li>
+                        <li>Touch controllers: Oculus Touch controllers precisely recreate your hands, their gestures and interactions, so every game is real enough to reach out and touch</li>
+                        <li>Beyond room-scale: Oculus Quest works with your environment, so you can play standing or sitting, in spaces big or small</li>
+                    </ul>
+                    </p>
+                    <h4 class="price">current price: <span>$180</span></h4>
+                    <p class="vote"><strong>91%</strong> of buyers enjoyed this product! <strong>(87 votes)</strong></p>
+                    <h5 class="sizes">sizes:
+                        <span class="size" data-toggle="tooltip" title="small">s</span>
+                        <span class="size" data-toggle="tooltip" title="medium">m</span>
+                        <span class="size" data-toggle="tooltip" title="large">l</span>
+                        <span class="size" data-toggle="tooltip" title="xtra large">xl</span>
+                    </h5>
+                    <!--<h5 class="colors">colors:
+                        <span class="color orange not-available" data-toggle="tooltip" title="Not In store"></span>
+                        <span class="color green"></span>
+                        <span class="color blue"></span>
+                    </h5>-->
+                    <div class="action">
+                        <button class="add-to-cart btn btn-default" type="button">add to cart</button>
+                        <button class="like btn btn-default" type="button"><span class="fa fa-heart"></span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<br>
+
+<div class="container-fluid">
+    <div class="card">
+      <div class="card-body">
+        <h5 style="display: inline;" class="cardtitle">Similar Items &nbsp;</h5>
+        <a style="display: inline;" href=""><font size="3px">See more</font></a>
+        <p></p>
+        <div class="card-deck">
+          <div class="card">
+            <div class="container">
+              <p></p>
+            <img class="card-img-top" src="{% static 'shop/images/wffcopy.jpg' %}" alt="Card image cap">
+            <p></p>
+            <h5 class="cardtext">Women Trouser Slim Fit</h5>
+             <p class="price">Rs 2,500</p> <p></p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="container">
+              <p></p>
+            <img class="card-img-top" src="{% static 'shop/images/book4.jpg' %}" alt="Card image cap">
+            <p></p>
+            <h5 class="cardtext">Finding Moana James Halemanu</h5>
+             <p class="price">Rs 800</p> <p></p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="container">
+              <p></p>
+            <img class="card-img-top" src="{% static 'shop/images/phone2.jpg' %}" alt="Card image cap">
+            <p></p>
+            <h5 class="cardtext">Samsung Galaxy X3</h5>
+             <p class="price">Rs 12,500</p> <p></p>
+            </div>
+          </div><div class="card">
+            <div class="container">
+              <p></p>
+            <img class="card-img-top" src="{% static 'shop/images/mfcopy.jpeg' %}" alt="Card image cap">
+            <p></p>
+            <h5 class="cardtext">Sonata Men Watch</h5>
+             <p class="price">Rs 2,500</p> <p></p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="container">
+              <p></p>
+            <img class="card-img-top" src="{% static 'shop/images/book4.jpg' %}" alt="Card image cap">
+            <p></p>
+            <h5 class="cardtext">Finding Moana James Halemanu</h5>
+             <p class="price">Rs 800</p> <p></p>
+            </div>
+          </div> <div class="card">
+            <div class="container">
+              <p></p>
+            <img class="card-img-top" src="{% static 'shop/images/book4.jpg' %}" alt="Card image cap">
+            <p></p>
+            <h5 class="cardtext">Finding Moana James Halemanu</h5>
+             <p class="price">Rs 800</p> <p></p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="container">
+              <p></p>
+            <img class="card-img-top" src="{% static 'shop/images/book2.jpg' %}" alt="Card image cap">
+            <p></p>
+            <h5 class="cardtext">Back To The Future</h5>
+             <p class="price">Rs 400</p> <p></p>
+            </div>
+          </div>            
+        </div>       
+      </div>      
+    </div>
+    </div>
+<br>
+
+{% endblock %}
